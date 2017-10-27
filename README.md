@@ -56,7 +56,7 @@ _Your repository must include:_
 
 - We now have two pages in our blog app, each of which need different initialization. There is a skeleton of a method in articleView.js to get this started for the new page; be sure to examine how this is now being done for the index page.
 - The new page with the form will need event handling and a template. Where should these pieces go in the code?
-- The new page should not display any other articles; how to manage this?
+- The new page should not display any other articles
 
 ### Stretch Goal
 *As a user, I want to add highlighting and Markdown formatting so that it is attractive to guests visiting my app.*

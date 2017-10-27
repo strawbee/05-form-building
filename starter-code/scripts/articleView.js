@@ -111,6 +111,7 @@ articleView.create = () => {
 // COMMENT: Where is this function called? Why?
 // PUT YOUR RESPONSE HERE
 articleView.initIndexPage = () => {
+  articles.forEach(article => $('#articles').append(article.toHtml()));
   articleView.populateFilters();
   articleView.handleCategoryFilter();
   articleView.handleAuthorFilter();

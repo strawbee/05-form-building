@@ -76,6 +76,7 @@ articleView.setTeasers = () => {
 // COMMENT: Where is this function called? Why?
 // This function is called at the bottom of new.html, right before the </body> tag. This is because new.html and index.html need to initialize different fuctions to maintain functionality, and it is more efficient to put the script directly in the .html document instead of creating a new .js document to link to. It's at the bottom of the page so that it can utilize the function that it's calling from the other .js files.
 articleView.initNewArticlePage = () => {
+  articleView.handleMainNav();
   // DONE: Ensure the main .tab-content area is revealed. We might add more tabs later or otherwise edit the tab navigation.
   $('.tab-content').show();
 
